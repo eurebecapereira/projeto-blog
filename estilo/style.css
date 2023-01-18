@@ -14,12 +14,14 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #F2E8DF;
-    box-shadow: 0px 0px 10px black;
+    background-color: #8b62243d;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    background-color: rgb(161, 138, 89);
 
 }
+
 
 main > article > h1 {
     color: rgb(0, 0, 0);
@@ -33,34 +35,36 @@ img {
 
 body {
     font-family: 'Sue Ellen Francisco','Courier New', Courier, monospace;
-    background-color: white;
+    background-color: rgb(172, 144, 112);
     text-align: justify;
     
 }
 
 header {
-    background-color: #F28585;
+    background-color: #9e7840;
     min-height: 150px;
     text-align: center;
     padding-top: 30px;
 }
 
 header > h1 {
-    color: rgb(0, 0, 0);
-    font-family: 'Dawning of a New Day','Courier New', Courier, monospace;
+    color: #a05115;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 4em;
     font-weight: bolder;
     margin-bottom: 20px;
     
 }
 
-header > p {
-    font-family: 'Dawning of a New Day','Courier New', Courier, monospace;
+
+header.imagemfundo {
+    background-image: url(../image/BACKGLIV.jpg);
+    padding: 80px;
 }
 
 
 .genero {
-    background-image: linear-gradient(to right,#F28585, #F2C6C2, #F2E8DF);
+    background-image: linear-gradient(to right,#9e7840, #9b7b4c, #9b825e);
     font-size: 30px;
     border-radius: 0px 5px;
 }
@@ -93,6 +97,8 @@ h2 > a {
 header > p {
     font-family: 'Dawning of a New Day','Courier New', Courier, monospace;
     text-align: center;
+    color: #a05115;
+    font-size: 2em;
 }
 
 p {
@@ -102,15 +108,15 @@ p {
 }
 
 nav {
-    background-color: #F2C6C2;
+    background-color: #d1773b;
     padding: 10px;
-    box-shadow: 0px 0px 12px #080612d6;
+    box-shadow: 0px 0px 12px black;
 }
 
 .menu {
     width:100%;
     text-align:center;  
-    background-color: #F2C6C2;
+    background-color: #9e7840;
 }
 nav > a {
     position: relative;
@@ -130,12 +136,12 @@ a {
   
   a:hover,
   a:focus {
-    color: #F28585;
+    color: #a05115;
   }
 
 
 footer {
-    background-color: #F2C6C2;
+    background-color: #9e7840;
     text-align: center;
     font-size: small;
     padding: 5px;
