@@ -18,7 +18,7 @@ main {
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: rgb(161, 138, 89);
+    background-color: #735c3f79;
 
 }
 
@@ -35,21 +35,21 @@ img {
 
 body {
     font-family: 'Sue Ellen Francisco','Courier New', Courier, monospace;
-    background-color: rgb(172, 144, 112);
+    background-color: #F2E2CE;
     text-align: justify;
     
 }
 
 header {
-    background-color: #9e7840;
+    background-color: #4d4c5e;
     min-height: 150px;
     text-align: center;
     padding-top: 30px;
 }
 
 header > h1 {
-    color: #a05115;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c9b9b9;
+    font-family: 'Sue Ellen Francisco', 'Courier New';
     font-size: 4em;
     font-weight: bolder;
     margin-bottom: 20px;
@@ -60,11 +60,11 @@ header > h1 {
 header.imagemfundo {
     background-image: url(../image/BACKGLIV.jpg);
     padding: 80px;
+
 }
 
-
 .genero {
-    background-image: linear-gradient(to right,#9e7840, #9b7b4c, #9b825e);
+    background-image: linear-gradient(to right,#8C3414, #7e3f29);
     font-size: 30px;
     border-radius: 0px 5px;
 }
@@ -97,7 +97,7 @@ h2 > a {
 header > p {
     font-family: 'Dawning of a New Day','Courier New', Courier, monospace;
     text-align: center;
-    color: #a05115;
+    color: #40180F;
     font-size: 2em;
 }
 
@@ -108,7 +108,7 @@ p {
 }
 
 nav {
-    background-color: #d1773b;
+    background-color: #d1593b;
     padding: 10px;
     box-shadow: 0px 0px 12px black;
 }
@@ -116,7 +116,7 @@ nav {
 .menu {
     width:100%;
     text-align:center;  
-    background-color: #9e7840;
+    background-color: #40180F;
 }
 nav > a {
     position: relative;
@@ -127,6 +127,7 @@ nav > a {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 1.3em;
+    
 }
 
 a {
@@ -136,12 +137,12 @@ a {
   
   a:hover,
   a:focus {
-    color: #a05115;
+    color: #D98236;
   }
 
 
 footer {
-    background-color: #9e7840;
+    background-color: #40180F;
     text-align: center;
     font-size: small;
     padding: 5px;
