@@ -14,11 +14,11 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: #8b62243d;
+    background-color: #eee6e6fd;
     box-shadow: 0px 0px 10px rgb(0, 0, 0);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: #735c3f79;
+    
 
 }
 
@@ -41,30 +41,26 @@ body {
 }
 
 header {
-    background-color: #4d4c5e;
+    background-color: #1C4C64;
     min-height: 150px;
     text-align: center;
     padding-top: 30px;
 }
 
-header > h1 {
-    color: #c9b9b9;
-    font-family: 'Sue Ellen Francisco', 'Courier New';
-    font-size: 4em;
-    font-weight: bolder;
-    margin-bottom: 20px;
-    
-}
-
 
 header.imagemfundo {
-    background-image: url(../image/BACKGLIV.jpg);
-    padding: 80px;
+    background-image: url(../image/once\ upon\ a\ time.png);
+    padding: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+
 
 }
 
 .genero {
-    background-image: linear-gradient(to right,#8C3414, #7e3f29);
+    background-image: linear-gradient(to right,#1C4C64, #2b4e5f, #495f69);
     font-size: 30px;
     border-radius: 0px 5px;
 }
@@ -94,11 +90,12 @@ h2 > a {
     color: black;
 }
 
-header > p {
-    font-family: 'Dawning of a New Day','Courier New', Courier, monospace;
-    text-align: center;
-    color: #40180F;
-    font-size: 2em;
+p > .proxima {
+    text-align: right;
+}
+
+p > .anterior {
+    text-align: left;
 }
 
 p {
@@ -108,7 +105,7 @@ p {
 }
 
 nav {
-    background-color: #d1593b;
+    background-color: #fafafa;
     padding: 10px;
     box-shadow: 0px 0px 12px black;
 }
@@ -116,7 +113,7 @@ nav {
 .menu {
     width:100%;
     text-align:center;  
-    background-color: #40180F;
+    background-color: #1C4C64;
 }
 nav > a {
     position: relative;
@@ -137,12 +134,12 @@ a {
   
   a:hover,
   a:focus {
-    color: #D98236;
+    color: #f3baba;
   }
 
 
 footer {
-    background-color: #40180F;
+    background-color: #1C4C64;
     text-align: center;
     font-size: small;
     padding: 5px;
