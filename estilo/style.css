@@ -8,6 +8,51 @@
     padding: 0px;
 }
 
+body {
+    font-family: 'Sue Ellen Francisco','Courier New', Courier, monospace;
+    background-color: #F2E2CE;
+    text-align: justify;
+    
+}
+
+header {
+    background-color: #1C4C64;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header.imagemfundo {
+    background-image: url(../image/once\ upon\ a\ time.png);
+    padding: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    
+}
+
+nav {
+    background-color: #fafafa;
+    padding: 10px;
+    box-shadow: 0px 0px 12px black;
+}
+
+
+nav > a {
+    position: relative;
+	display: inline-block;
+	margin: 16px 20px;
+	outline: none;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25pt;
+    
+}
+
+
+
+
 main {
     min-width: 300px;
     max-width: 1000px;
@@ -31,32 +76,6 @@ main > article > h1 {
 
 img {
     max-width: 300px;
-}
-
-body {
-    font-family: 'Sue Ellen Francisco','Courier New', Courier, monospace;
-    background-color: #F2E2CE;
-    text-align: justify;
-    
-}
-
-header {
-    background-color: #1C4C64;
-    min-height: 150px;
-    text-align: center;
-    padding-top: 30px;
-}
-
-
-header.imagemfundo {
-    background-image: url(../image/once\ upon\ a\ time.png);
-    padding: 100px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    
-
-
 }
 
 .genero {
@@ -90,13 +109,14 @@ h2 > a {
     color: black;
 }
 
-p > .proxima {
+p > .dir > #direita {
     text-align: right;
 }
 
-p > .anterior {
+p > .esq > #esquerda {
     text-align: left;
 }
+
 
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -104,27 +124,11 @@ p {
     line-height: 30px;
 }
 
-nav {
-    background-color: #fafafa;
-    padding: 10px;
-    box-shadow: 0px 0px 12px black;
-}
 
 .menu {
     width:100%;
     text-align:center;  
     background-color: #1C4C64;
-}
-nav > a {
-    position: relative;
-	display: inline-block;
-	margin: 16px 20px;
-	outline: none;
-	color: black;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 25pt;
-    
 }
 
 a {
