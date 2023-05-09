@@ -17,22 +17,25 @@ body {
 header {
     background-image: url(imagens/imagem3.jpg);
     background-size: cover;
-    text-align: center;
-}
-
-header.principal {
-    padding: 100px;
-    background-position: center center;
+    background-color: white;
+    position: relative;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    
+}
+
+header > .principal {
+    height: 300px;
+    font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
+    font-size: 5em;
+    color: #070707af;
+    position: relative;
+    text-align: center;
+    width: auto;
 }
 
 nav {
     background-color: #fcf9f9;
-    padding: 10px;
 }
-
 
 nav > a {
     position: relative;
@@ -42,12 +45,8 @@ nav > a {
 	color: black;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 18pt;
-    
+	font-size: 18pt;   
 }
-
-
-
 
 main {
     min-width: 300px;
@@ -56,9 +55,6 @@ main {
     margin-bottom: 30px;
     padding: 20px;
     background-color: #fffefc54;
-    
-    
-
 }
 
 
@@ -87,11 +83,7 @@ img {
     text-align: left;
     padding-top: 10px;
 }
-h1.principal {
-    font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
-    font-size: 5em;
-    color: #070707af;
-}
+
 
 h2 {
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
@@ -111,7 +103,6 @@ p > .dir > #direita {
 p > .esq > #esquerda {
     text-align: left;
 }
-
 
 p {
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
