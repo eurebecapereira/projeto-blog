@@ -16,14 +16,15 @@ body {
 
 header {
     background-image: url(imagens/imagem3.jpg);
-    background-size: cover;
-    background-color: white;
-    position: relative;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-color: white;
+    background-size: 100%;
+    background-position: center center;
+    
 }
 
-header > .principal {
+
+h1.principal {
     height: 300px;
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
     font-size: 5em;
@@ -31,26 +32,33 @@ header > .principal {
     position: relative;
     text-align: center;
     width: auto;
+    padding-top: 30px;
 }
 
 nav {
+    height: 50px;
+    padding-top: 15px;
     background-color: #fcf9f9;
+    list-style-type: none;
+    display: inline-block;
 }
 
-nav > a {
+ul li  {
+    list-style-type: none;
+    display:inline-block;
+} 
+
+a {
+    margin: 10px;
     position: relative;
-	display: inline-block;
-	margin: 16px 20px;
 	outline: none;
 	color: black;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 18pt;   
+	font-size: 18pt; 
 }
-
 main {
-    min-width: 300px;
-    max-width: 1000px;
+    width: 70%;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -64,13 +72,11 @@ main > article > h1 {
     padding-top: 10px;
 }
 
-article.imagem {
-    background-position: center;
-    background-size: cover;
-}
 
-img {
-    max-width: 400px;
+img.capa {
+    width: 200px;
+    height: 200px;
+    float: right;
 }
 
 .genero {
@@ -107,7 +113,7 @@ p > .esq > #esquerda {
 p {
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
     text-align: justify;
-    line-height: 30px;
+    line-height: 2em;
 }
 
 p > a {
@@ -129,9 +135,12 @@ a {
     transition: all 0.1s ease-out;
   }
   
-  a:hover,
-  a:focus {
-    color: #c7b492;
+  a:hover {
+    color: #000;
+    transition: 1s;
+  }
+  a:active {
+    color: gray;
   }
 
 
