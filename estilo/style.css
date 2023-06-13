@@ -85,8 +85,10 @@ h1.genero {
     font-size: 30px;
     color: rgb(0, 0, 0);
     text-align: inherit;
-    padding: 50px;
-    margin-left: 0;
+    padding: 25px;
+    margin: 0;
+    
+    
 }
 
 
@@ -94,18 +96,27 @@ h1.livro {
     color: rgb(0, 0, 0);
     text-align: left;
     padding-top: 10px;
+
+}
+h1.livro:hover {
+    background-color: #FBEABB;
+    border-radius: 5px;
+    transition: 2s;
+    
 }
 
 
 h2 {
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
-    font-size: small;
+    
 }
 
 h2 > a {
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
     text-decoration: none;
     color: black;
+    margin: 0;
+    font-size: 15px;
 }
 
 
@@ -125,6 +136,16 @@ p > a {
     text-decoration: none;
 
 }
+
+p > a .navega{
+    font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
+    font-size: 1em;
+    color: #000;
+    text-decoration: none;
+    
+
+}
+
 
 
 
