@@ -7,6 +7,12 @@
     padding: 0px;
 }
 
+:root {
+    --cor-fonte-body: black;
+    --cor-fonte-header: #070707af;
+    --cor-fonte-nav: #fcf9f9;
+}
+
 body {
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
     background-color: #fdfcf9e8;
@@ -15,7 +21,7 @@ body {
 }
 
 header {
-    background-image: url(imagens/imagem3.jpg);
+    background-image: url(imagens/imagem2.jpg);
     background-repeat: no-repeat;
     background-color: white;
     background-size: 100%;
@@ -28,7 +34,7 @@ h1.principal {
     height: 300px;
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
     font-size: 5em;
-    color: #070707af;
+    color: var(--cor-fonte-header);
     position: relative;
     text-align: center;
     width: auto;
@@ -55,7 +61,7 @@ a {
     margin: 10px;
     position: relative;
 	outline: none;
-	color: black;
+	color: var(--cor-fonte-body);
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 18pt; 
@@ -78,12 +84,14 @@ main > article {
 img.capa {
     width: 200px;
     height: 200px;
-    float: right;
+    border: solid 0.5px black;
+    
+    
 }
 
 h1.genero {
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: var(--cor-fonte-body);
     text-align: inherit;
     padding: 25px;
     margin: 0;
@@ -93,7 +101,7 @@ h1.genero {
 
 
 h1.livro {
-    color: rgb(0, 0, 0);
+    color: var(--cor-fonte-body);
     text-align: left;
     padding-top: 10px;
 
@@ -114,7 +122,7 @@ h2 {
 h2 > a {
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
     text-decoration: none;
-    color: black;
+    color: var(--cor-fonte-body);
     margin: 0;
     font-size: 15px;
 }
@@ -124,7 +132,7 @@ p {
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
     text-align: justify;
     line-height: 2em;
-    color: #000000ce;
+    color: var(--cor-fonte-body);
     font-weight: bolder;
     width: 70%;
 }
@@ -132,7 +140,7 @@ p {
 p > a {
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
     font-size: 1em;
-    color: #000;
+    color: var(--cor-fonte-body);
     text-decoration: none;
 
 }
@@ -140,7 +148,7 @@ p > a {
 p > a .navega{
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
     font-size: 1em;
-    color: #000;
+    color: var(--cor-fonte-body);
     text-decoration: none;
     
 
@@ -155,7 +163,7 @@ a {
   }
   
   a:hover {
-    color: #000;
+    color: var(--cor-fonte-body);
     transition: 1s;
   }
   a:active {
@@ -171,5 +179,6 @@ footer {
 }
 
 footer > p {
+    width: 100%;
     text-align: center;
 }
