@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-/*limpei um pouco o css 11/06/23*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -45,8 +45,8 @@ h1.principal {
     padding-top: 30px;
     letter-spacing: 15px;
 }
-
-nav.menu {
+/*menu de navegação dos generos*/
+.menu {
     height: 50px;
     padding-top: 15px;
     background-color: #fcf9f9;
@@ -70,15 +70,24 @@ a {
 	color: var(--cor-fonte-body);
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 18pt; 
+	font-size: 18pt;
+    
 }
+/*selecionando todo link a que for filho direto de h2, nesse caso todos os nomes dos autores pois estão ligados ao h2 que é o título do livro*/
+h2 > a {
+	color: var(--cor-fonte-body);
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+/*o main está contendo toda a tag article que está o conteudo da página*/
 main {
     width: 70%;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
     background-color: #fffefc54;
-
  
 }
 
@@ -86,9 +95,10 @@ main {
 main > article {
    width: 100%;
    text-align: justify;
+   
 }
 
-
+/*configuração da capa dos livros*/
 img.capa {
     width: 200px;
     height: 200px;
@@ -97,7 +107,7 @@ img.capa {
     
     
 }
-
+/*gênero literário do livro*/
 h1.genero {
     font-size: 30px;
     color: var(--cor-fonte-body);
@@ -108,7 +118,7 @@ h1.genero {
     
 }
 
-
+/*nome do livro*/
 h1.livro {
     color: var(--cor-fonte-body);
     text-align: left;
@@ -122,10 +132,8 @@ h1.livro:hover {
     
 }
 
-
 h2 {
-    font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
-    
+    margin-bottom: 16px;
 }
 
 h2 > a {
@@ -136,25 +144,18 @@ h2 > a {
     font-size: 15px;
 }
 
-
-p {
+/*classe que configura apenas os parágrafos que descrevem o livro*/
+.descricao {
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
     text-align: justify;
     line-height: 2em;
     color: var(--cor-fonte-body);
     font-weight: bolder;
     width: 70%;
+    
 }
-
+/*configuração dos links da página*/
 p > a {
-    font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
-    font-size: 1em;
-    color: var(--cor-fonte-body);
-    text-decoration: none;
-
-}
-
-p > a .navega{
     font-family: 'Poiret One', 'cursiv','Courier New', Courier, monospace;
     font-size: 1em;
     color: var(--cor-fonte-body);
@@ -162,32 +163,37 @@ p > a .navega{
     
 
 }
-
-
-
+/*colocar o link de página anterior e próxima longe um do outro com espaço equivalente entre eles*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
 
 a {
     color: var(--cor-fonte-menu);
     transition: all 0.1s ease-out;
   }
   
-  a:hover {
+a:hover {
     color: var(--cor-fonte-body);
     transition: 1s;
-  }
-  a:active {
+}
+a:active {
     color: gray;
-  }
+}
 
-
+/*configuração do rodapé da página*/
 footer {
     background-color: #FBEABB;
     font-size: small;
     padding: 5px;
     height: 80px;
-}
-
-footer > p {
     width: 100%;
     text-align: center;
 }
+
+
+    
+
+
